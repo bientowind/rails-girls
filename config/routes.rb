@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get 'pages/info'
+  get 'pages/info2'
 
   resources :ideas
   root :to=>redirect('/ideas')

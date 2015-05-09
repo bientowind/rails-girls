@@ -38,3 +38,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'carrierwave'
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
